@@ -1,6 +1,6 @@
 #include "io.h"
 
-void writeXY(int x, int y, char *text, char color)
+void writeXY(int x, int y, const char *text, char color)
 {
     char *screenBuffer = (char *)0xb800;
     int pos = x*2 + y*2*80;

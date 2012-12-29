@@ -13,7 +13,6 @@ start:
     mov al, #32
     
     mov ah, #2
-    
     int 0x13
     
     jmpi 0, #LOC1
